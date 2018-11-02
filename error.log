@@ -1,0 +1,439 @@
+[Tue Oct 30 16:40:40.651415 2018] [cgi:error] [pid 29502] [client ::1:50682] End of script output before headers: hello.py
+[Tue Oct 30 16:40:41.047249 2018] [cgi:error] [pid 29504] [client ::1:50684] End of script output before headers: hello.py
+[Tue Oct 30 16:41:25.748803 2018] [cgi:error] [pid 29611] [client ::1:50692] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 16:41:25.749224 2018] [cgi:error] [pid 29611] [client ::1:50692] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 16:41:25.749370 2018] [cgi:error] [pid 29611] [client ::1:50692] AH01215:     req = requests.get(i): /home/halk/myproject/mailApi.py
+[Tue Oct 30 16:41:25.749479 2018] [cgi:error] [pid 29611] [client ::1:50692] AH01215: NameError: name 'requests' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 16:41:25.758918 2018] [cgi:error] [pid 29611] [client ::1:50692] End of script output before headers: mailApi.py
+[Tue Oct 30 16:42:20.456465 2018] [cgi:error] [pid 29865] [client ::1:50696] End of script output before headers: mailApi.py
+[Tue Oct 30 16:43:06.925566 2018] [cgi:error] [pid 29868] [client ::1:50706] End of script output before headers: mailApi.py
+[Tue Oct 30 17:03:41.184736 2018] [cgi:error] [pid 31316] [client ::1:51136] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:41.184980 2018] [cgi:error] [pid 31316] [client ::1:51136] AH01215:   File "/home/halk/myproject/mailApi.py", line 18, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:41.185094 2018] [cgi:error] [pid 31316] [client ::1:51136] AH01215:     loaded_json = json.loads(json_data): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:41.185210 2018] [cgi:error] [pid 31316] [client ::1:51136] AH01215: NameError: name 'json_data' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:41.218705 2018] [cgi:error] [pid 31316] [client ::1:51136] End of script output before headers: mailApi.py
+[Tue Oct 30 17:03:43.938808 2018] [cgi:error] [pid 31317] [client ::1:51138] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:43.939000 2018] [cgi:error] [pid 31317] [client ::1:51138] AH01215:   File "/home/halk/myproject/mailApi.py", line 18, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:43.939107 2018] [cgi:error] [pid 31317] [client ::1:51138] AH01215:     loaded_json = json.loads(json_data): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:43.939217 2018] [cgi:error] [pid 31317] [client ::1:51138] AH01215: NameError: name 'json_data' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:03:43.973711 2018] [cgi:error] [pid 31317] [client ::1:51138] End of script output before headers: mailApi.py
+[Tue Oct 30 17:04:09.291334 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.291594 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:   File "/home/halk/myproject/mailApi.py", line 18, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.291689 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:     loaded_json = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.291835 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.291924 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.292074 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.292206 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.292302 2018] [cgi:error] [pid 31318] [client ::1:51142] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:04:09.326631 2018] [cgi:error] [pid 31318] [client ::1:51142] End of script output before headers: mailApi.py
+[Tue Oct 30 17:07:23.479238 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.479544 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:   File "/home/halk/myproject/mailApi.py", line 18, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.479650 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:     loaded_json = json.dumps(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.479813 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 244, in dumps: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.479911 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:     return _default_encoder.encode(obj): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.480066 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:   File "/usr/lib/python2.7/json/encoder.py", line 207, in encode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497043 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:     chunks = self.iterencode(o, _one_shot=True): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497230 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:   File "/usr/lib/python2.7/json/encoder.py", line 270, in iterencode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497305 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:     return _iterencode(o, 0): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497501 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:   File "/usr/lib/python2.7/json/encoder.py", line 184, in default: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497673 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215:     raise TypeError(repr(o) + " is not JSON serializable"): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.497828 2018] [cgi:error] [pid 31397] [client ::1:51266] AH01215: TypeError: FieldStorage(None, None, []) is not JSON serializable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:07:23.535704 2018] [cgi:error] [pid 31397] [client ::1:51266] End of script output before headers: mailApi.py
+[Tue Oct 30 17:09:44.312250 2018] [cgi:error] [pid 31317] [client ::1:51294] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:09:44.312453 2018] [cgi:error] [pid 31317] [client ::1:51294] AH01215:   File "/home/halk/myproject/mailApi.py", line 27, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:09:44.312512 2018] [cgi:error] [pid 31317] [client ::1:51294] AH01215:     for i in urls:: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:09:44.312615 2018] [cgi:error] [pid 31317] [client ::1:51294] AH01215: NameError: name 'urls' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:09:44.347242 2018] [cgi:error] [pid 31317] [client ::1:51294] End of script output before headers: mailApi.py
+[Tue Oct 30 17:15:27.634444 2018] [cgi:error] [pid 32314] [client ::1:51338] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:15:27.634702 2018] [cgi:error] [pid 32314] [client ::1:51338] AH01215:   File "/home/halk/myproject/mailApi.py", line 27, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:15:27.634849 2018] [cgi:error] [pid 32314] [client ::1:51338] AH01215:     for i in urls:: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:15:27.634963 2018] [cgi:error] [pid 32314] [client ::1:51338] AH01215: NameError: name 'urls' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:15:27.670080 2018] [cgi:error] [pid 32314] [client ::1:51338] End of script output before headers: mailApi.py
+[Tue Oct 30 17:19:33.541695 2018] [cgi:error] [pid 32317] [client ::1:51386] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:19:33.541917 2018] [cgi:error] [pid 32317] [client ::1:51386] AH01215:   File "/home/halk/myproject/mailApi.py", line 30, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:19:33.542136 2018] [cgi:error] [pid 32317] [client ::1:51386] AH01215:     emails: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:19:33.542245 2018] [cgi:error] [pid 32317] [client ::1:51386] AH01215: NameError: name 'emails' is not defined: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:19:33.574176 2018] [cgi:error] [pid 32317] [client ::1:51386] End of script output before headers: mailApi.py
+[Tue Oct 30 17:20:43.289326 2018] [cgi:error] [pid 32318] [client ::1:51390] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:43.289710 2018] [cgi:error] [pid 32318] [client ::1:51390] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:43.289861 2018] [cgi:error] [pid 32318] [client ::1:51390] AH01215:     : /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:43.289994 2018] [cgi:error] [pid 32318] [client ::1:51390] AH01215: f.write(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:43.290395 2018] [cgi:error] [pid 32318] [client ::1:51390] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11097: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:43.327817 2018] [cgi:error] [pid 32318] [client ::1:51390] End of script output before headers: mailApi.py
+[Tue Oct 30 17:20:52.052075 2018] [cgi:error] [pid 32316] [client ::1:51392] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:52.052306 2018] [cgi:error] [pid 32316] [client ::1:51392] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:52.052364 2018] [cgi:error] [pid 32316] [client ::1:51392] AH01215:     f.write(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:52.052615 2018] [cgi:error] [pid 32316] [client ::1:51392] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11063: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:52.094936 2018] [cgi:error] [pid 32316] [client ::1:51392] End of script output before headers: mailApi.py
+[Tue Oct 30 17:20:58.528940 2018] [cgi:error] [pid 32354] [client ::1:51396] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:58.529130 2018] [cgi:error] [pid 32354] [client ::1:51396] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:58.529229 2018] [cgi:error] [pid 32354] [client ::1:51396] AH01215:     f.write(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:58.529505 2018] [cgi:error] [pid 32354] [client ::1:51396] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11061: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:20:58.566623 2018] [cgi:error] [pid 32354] [client ::1:51396] End of script output before headers: mailApi.py
+[Tue Oct 30 17:21:12.005206 2018] [cgi:error] [pid 322] [client ::1:51404] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:12.005445 2018] [cgi:error] [pid 322] [client ::1:51404] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:12.005517 2018] [cgi:error] [pid 322] [client ::1:51404] AH01215:     f.write(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:12.005774 2018] [cgi:error] [pid 322] [client ::1:51404] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11108: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:12.040850 2018] [cgi:error] [pid 322] [client ::1:51404] End of script output before headers: mailApi.py
+[Tue Oct 30 17:21:27.763573 2018] [cgi:error] [pid 323] [client ::1:51410] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:27.763829 2018] [cgi:error] [pid 323] [client ::1:51410] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:27.763892 2018] [cgi:error] [pid 323] [client ::1:51410] AH01215:     f.write(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:27.764117 2018] [cgi:error] [pid 323] [client ::1:51410] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11067: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:21:27.797617 2018] [cgi:error] [pid 323] [client ::1:51410] End of script output before headers: mailApi.py
+[Tue Oct 30 17:23:06.102225 2018] [cgi:error] [pid 325] [client ::1:51440] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:23:06.102544 2018] [cgi:error] [pid 325] [client ::1:51440] AH01215:   File "/home/halk/myproject/mailApi.py", line 47, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:23:06.102670 2018] [cgi:error] [pid 325] [client ::1:51440] AH01215:     html_data=str(req.text): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:23:06.102993 2018] [cgi:error] [pid 325] [client ::1:51440] AH01215: UnicodeEncodeError: 'ascii' codec can't encode character u'\\xa0' in position 11087: ordinal not in range(128): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:23:06.137454 2018] [cgi:error] [pid 325] [client ::1:51440] End of script output before headers: mailApi.py
+[Tue Oct 30 17:30:10.355311 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.355540 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215:   File "/home/halk/myproject/mailApi.py", line 30, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.355634 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215:     urls.append(form['url'].value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.355761 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215:   File "/usr/lib/python2.7/cgi.py", line 535, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.377321 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.377451 2018] [cgi:error] [pid 323] [client ::1:51526] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:30:10.410647 2018] [cgi:error] [pid 323] [client ::1:51526] End of script output before headers: mailApi.py
+[Tue Oct 30 17:33:06.457785 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.457987 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215:   File "/home/halk/myproject/mailApi.py", line 30, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.458094 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215:     urls.append(form['url'].value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.458230 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215:   File "/usr/lib/python2.7/cgi.py", line 535, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.458311 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.458363 2018] [cgi:error] [pid 322] [client ::1:51538] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:06.490421 2018] [cgi:error] [pid 322] [client ::1:51538] End of script output before headers: mailApi.py
+[Tue Oct 30 17:33:40.958802 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.959022 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215:   File "/home/halk/myproject/mailApi.py", line 30, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.959174 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215:     urls.append(form['url'].value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.959312 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.959368 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215:     raise KeyError, key: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.959403 2018] [cgi:error] [pid 326] [client ::1:51540] AH01215: KeyError: 'url': /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:33:40.993880 2018] [cgi:error] [pid 326] [client ::1:51540] End of script output before headers: mailApi.py
+[Tue Oct 30 17:39:17.299134 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.299532 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.299690 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:     loaded_json = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.299836 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.299931 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.300082 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.300204 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.300289 2018] [cgi:error] [pid 325] [client ::1:51552] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:39:17.333122 2018] [cgi:error] [pid 325] [client ::1:51552] End of script output before headers: mailApi.py
+[Tue Oct 30 17:40:59.300242 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:40:59.300435 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:40:59.300516 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215:     print form.split('"'): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:40:59.300652 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215:   File "/usr/lib/python2.7/cgi.py", line 521, in __getattr__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:40:59.300731 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215:     raise AttributeError, name: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:40:59.300783 2018] [cgi:error] [pid 349] [client ::1:51558] AH01215: AttributeError: split: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.398359 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.398562 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.398794 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215:     print form['url'].value: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.398949 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.399027 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215:     raise KeyError, key: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:27.399066 2018] [cgi:error] [pid 323] [client ::1:51562] AH01215: KeyError: 'url': /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404304 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404551 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404647 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215:     print form['url'].value: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404799 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215:   File "/usr/lib/python2.7/cgi.py", line 535, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404887 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:41:43.404942 2018] [cgi:error] [pid 877] [client ::1:51566] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.644508 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.644913 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645029 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:     : /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645134 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215: print form.getfirst("urls"): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645288 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:   File "/usr/lib/python2.7/cgi.py", line 559, in getfirst: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645382 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:     if key in self:: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645491 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:   File "/usr/lib/python2.7/cgi.py", line 594, in __contains__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645558 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:42:58.645606 2018] [cgi:error] [pid 323] [client ::1:51632] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.706891 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707086 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707179 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:     print form.getfirst("urls"): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707313 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:   File "/usr/lib/python2.7/cgi.py", line 559, in getfirst: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707377 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:     if key in self:: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707536 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:   File "/usr/lib/python2.7/cgi.py", line 594, in __contains__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707626 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:29.707694 2018] [cgi:error] [pid 349] [client ::1:51820] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.396782 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.396974 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397164 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:     print form.getfirst("urls"): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397352 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:   File "/usr/lib/python2.7/cgi.py", line 559, in getfirst: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397446 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:     if key in self:: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397588 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:   File "/usr/lib/python2.7/cgi.py", line 594, in __contains__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397673 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215:     raise TypeError, "not indexable": /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:45:52.397734 2018] [cgi:error] [pid 324] [client ::1:51822] AH01215: TypeError: not indexable: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.041455 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.041643 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.041737 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:     dataset = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.041875 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.041952 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.042062 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.042155 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.042221 2018] [cgi:error] [pid 322] [client ::1:51838] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:34.075476 2018] [cgi:error] [pid 322] [client ::1:51838] End of script output before headers: mailApi.py
+[Tue Oct 30 17:47:38.717897 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718085 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718173 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:     dataset = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718292 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718362 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718471 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718563 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.718634 2018] [cgi:error] [pid 325] [client ::1:51840] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:47:38.751741 2018] [cgi:error] [pid 325] [client ::1:51840] End of script output before headers: mailApi.py
+[Tue Oct 30 17:48:14.146614 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.146821 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.146897 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:     dataset = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.147041 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.147145 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.147286 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.147416 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.147529 2018] [cgi:error] [pid 877] [client ::1:51848] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:14.190456 2018] [cgi:error] [pid 877] [client ::1:51848] End of script output before headers: mailApi.py
+[Tue Oct 30 17:48:30.921186 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.921565 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.921659 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:     dataset = json.loads(form): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.921800 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.921891 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.922054 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.922179 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.922267 2018] [cgi:error] [pid 323] [client ::1:51850] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:48:30.962481 2018] [cgi:error] [pid 323] [client ::1:51850] End of script output before headers: mailApi.py
+[Tue Oct 30 17:49:43.341483 2018] [cgi:error] [pid 349] [client ::1:51858] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:49:43.341673 2018] [cgi:error] [pid 349] [client ::1:51858] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:49:43.341785 2018] [cgi:error] [pid 349] [client ::1:51858] AH01215:     dataset = json.loads("'"+form+"'"): /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:49:43.341904 2018] [cgi:error] [pid 349] [client ::1:51858] AH01215: TypeError: cannot concatenate 'str' and 'instance' objects: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:49:43.372825 2018] [cgi:error] [pid 349] [client ::1:51858] End of script output before headers: mailApi.py
+[Tue Oct 30 17:52:20.747643 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:52:20.747844 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215:   File "/home/halk/myproject/mailApi.py", line 94, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:52:20.747910 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215:     print form[0]: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:52:20.748054 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215:   File "/usr/lib/python2.7/cgi.py", line 540, in __getitem__: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:52:20.748124 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215:     raise KeyError, key: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:52:20.748166 2018] [cgi:error] [pid 877] [client ::1:51868] AH01215: KeyError: 0: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:54:50.174026 2018] [cgi:error] [pid 323] [client ::1:51884] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:54:50.174224 2018] [cgi:error] [pid 323] [client ::1:51884] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:54:50.174286 2018] [cgi:error] [pid 323] [client ::1:51884] AH01215:     print dataset[0]: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:54:50.174323 2018] [cgi:error] [pid 323] [client ::1:51884] AH01215: KeyError: 0: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:55:17.970069 2018] [cgi:error] [pid 325] [client ::1:51890] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:55:17.970252 2018] [cgi:error] [pid 325] [client ::1:51890] AH01215:   File "/home/halk/myproject/mailApi.py", line 95, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:55:17.970403 2018] [cgi:error] [pid 325] [client ::1:51890] AH01215:     print dataset['email'].value: /home/halk/myproject/mailApi.py
+[Tue Oct 30 17:55:17.970523 2018] [cgi:error] [pid 325] [client ::1:51890] AH01215: AttributeError: 'unicode' object has no attribute 'value': /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.889588 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.889803 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.889999 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:     dataset = json.loads(form.value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.890151 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.890241 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.890365 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.890501 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.890593 2018] [cgi:error] [pid 349] [client ::1:52094] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:12.925482 2018] [cgi:error] [pid 349] [client ::1:52094] End of script output before headers: mailApi.py
+[Tue Oct 30 18:02:15.768397 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.768590 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.768744 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:     dataset = json.loads(form.value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.768878 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.768974 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.769086 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.769179 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.769246 2018] [cgi:error] [pid 324] [client ::1:52096] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:15.805804 2018] [cgi:error] [pid 324] [client ::1:52096] End of script output before headers: mailApi.py
+[Tue Oct 30 18:02:24.412912 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413113 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:   File "/home/halk/myproject/mailApi.py", line 20, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413206 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:     dataset = json.loads(form.value): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413341 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:   File "/usr/lib/python2.7/json/__init__.py", line 339, in loads: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413426 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:     return _default_decoder.decode(s): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413553 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:   File "/usr/lib/python2.7/json/decoder.py", line 364, in decode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413669 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215:     obj, end = self.raw_decode(s, idx=_w(s, 0).end()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.413758 2018] [cgi:error] [pid 325] [client ::1:52098] AH01215: TypeError: expected string or buffer: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:02:24.450939 2018] [cgi:error] [pid 325] [client ::1:52098] End of script output before headers: mailApi.py
+[Tue Oct 30 18:13:06.205493 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.205703 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/home/halk/myproject/mailApi.py", line 82, in <module>: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.205796 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     text = msg.as_string() : /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.205965 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/message.py", line 137, in as_string: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.227351 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     g.flatten(self, unixfrom=unixfrom): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.227593 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 83, in flatten: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.227668 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     self._write(msg): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.227856 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 115, in _write: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.227945 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     self._write_headers(msg): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.228151 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 164, in _write_headers: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.228340 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     v, maxlinelen=self._maxheaderlen, header_name=h).encode(): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.228580 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/header.py", line 410, in encode: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.228762 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     value = self._encode_chunks(newchunks, maxlinelen): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.228995 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/header.py", line 370, in _encode_chunks: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.229137 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     _max_append(chunks, s, maxlinelen, extra): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.229336 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:   File "/usr/lib/python2.7/email/quoprimime.py", line 97, in _max_append: /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.229436 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215:     L.append(s.lstrip()): /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.229592 2018] [cgi:error] [pid 322] [client ::1:52464] AH01215: AttributeError: 'list' object has no attribute 'lstrip': /home/halk/myproject/mailApi.py
+[Tue Oct 30 18:13:06.263999 2018] [cgi:error] [pid 322] [client ::1:52464] End of script output before headers: mailApi.py
+[Fri Nov 02 11:26:58.788331 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.788521 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/home/halk/myproject/mailApi.py", line 84, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.788577 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     text = msg.as_string() : /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.788694 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/message.py", line 137, in as_string: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.802306 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     g.flatten(self, unixfrom=unixfrom): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.802524 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 83, in flatten: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.802610 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     self._write(msg): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.802830 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 115, in _write: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.802912 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     self._write_headers(msg): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.803151 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 164, in _write_headers: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.803354 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     v, maxlinelen=self._maxheaderlen, header_name=h).encode(): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.803569 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/header.py", line 410, in encode: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.803732 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     value = self._encode_chunks(newchunks, maxlinelen): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.803964 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/header.py", line 370, in _encode_chunks: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.804118 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     _max_append(chunks, s, maxlinelen, extra): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.804358 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:   File "/usr/lib/python2.7/email/quoprimime.py", line 97, in _max_append: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.804464 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215:     L.append(s.lstrip()): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.804665 2018] [cgi:error] [pid 5249] [client ::1:33192] AH01215: AttributeError: 'list' object has no attribute 'lstrip': /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:26:58.836876 2018] [cgi:error] [pid 5249] [client ::1:33192] End of script output before headers: mailApi.py
+[Fri Nov 02 11:27:58.003272 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003467 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/home/halk/myproject/mailApi.py", line 84, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003557 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     text = msg.as_string() : /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003691 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/message.py", line 137, in as_string: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003769 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     g.flatten(self, unixfrom=unixfrom): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003881 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 83, in flatten: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.003920 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     self._write(msg): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004032 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 115, in _write: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004083 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     self._write_headers(msg): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004207 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/generator.py", line 164, in _write_headers: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004309 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     v, maxlinelen=self._maxheaderlen, header_name=h).encode(): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004416 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/header.py", line 410, in encode: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004508 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     value = self._encode_chunks(newchunks, maxlinelen): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004627 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/header.py", line 370, in _encode_chunks: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004705 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     _max_append(chunks, s, maxlinelen, extra): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004825 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:   File "/usr/lib/python2.7/email/quoprimime.py", line 97, in _max_append: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004871 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215:     L.append(s.lstrip()): /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.004964 2018] [cgi:error] [pid 5250] [client ::1:33204] AH01215: AttributeError: 'list' object has no attribute 'lstrip': /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:27:58.030968 2018] [cgi:error] [pid 5250] [client ::1:33204] End of script output before headers: mailApi.py
+[Fri Nov 02 11:54:31.948240 2018] [cgi:error] [pid 5248] [client ::1:33438] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:31.948395 2018] [cgi:error] [pid 5248] [client ::1:33438] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:31.948551 2018] [cgi:error] [pid 5248] [client ::1:33438] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:31.948646 2018] [cgi:error] [pid 5248] [client ::1:33438] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:31.976278 2018] [cgi:error] [pid 5248] [client ::1:33438] End of script output before headers: mailApi.py
+[Fri Nov 02 11:54:54.370622 2018] [cgi:error] [pid 5940] [client ::1:33448] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:54.370806 2018] [cgi:error] [pid 5940] [client ::1:33448] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:54.371004 2018] [cgi:error] [pid 5940] [client ::1:33448] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:54.371153 2018] [cgi:error] [pid 5940] [client ::1:33448] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:54:54.398345 2018] [cgi:error] [pid 5940] [client ::1:33448] End of script output before headers: mailApi.py
+[Fri Nov 02 11:55:11.489992 2018] [cgi:error] [pid 5249] [client ::1:33454] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:11.490144 2018] [cgi:error] [pid 5249] [client ::1:33454] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:11.490266 2018] [cgi:error] [pid 5249] [client ::1:33454] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:11.490361 2018] [cgi:error] [pid 5249] [client ::1:33454] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:11.517303 2018] [cgi:error] [pid 5249] [client ::1:33454] End of script output before headers: mailApi.py
+[Fri Nov 02 11:55:39.798569 2018] [cgi:error] [pid 5250] [client ::1:33462] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:39.798715 2018] [cgi:error] [pid 5250] [client ::1:33462] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:39.798814 2018] [cgi:error] [pid 5250] [client ::1:33462] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:39.798907 2018] [cgi:error] [pid 5250] [client ::1:33462] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:39.826182 2018] [cgi:error] [pid 5250] [client ::1:33462] End of script output before headers: mailApi.py
+[Fri Nov 02 11:55:55.218867 2018] [cgi:error] [pid 5246] [client ::1:33468] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:55.219051 2018] [cgi:error] [pid 5246] [client ::1:33468] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:55.219180 2018] [cgi:error] [pid 5246] [client ::1:33468] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:55.219314 2018] [cgi:error] [pid 5246] [client ::1:33468] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:55:55.246428 2018] [cgi:error] [pid 5246] [client ::1:33468] End of script output before headers: mailApi.py
+[Fri Nov 02 11:56:07.289066 2018] [cgi:error] [pid 5247] [client ::1:33474] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:56:07.289214 2018] [cgi:error] [pid 5247] [client ::1:33474] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:56:07.289312 2018] [cgi:error] [pid 5247] [client ::1:33474] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:56:07.289405 2018] [cgi:error] [pid 5247] [client ::1:33474] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:56:07.316657 2018] [cgi:error] [pid 5247] [client ::1:33474] End of script output before headers: mailApi.py
+[Fri Nov 02 11:57:21.917188 2018] [cgi:error] [pid 5248] [client ::1:33480] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:57:21.917333 2018] [cgi:error] [pid 5248] [client ::1:33480] AH01215:   File "/home/halk/myproject/mailApi.py", line 62, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:57:21.917432 2018] [cgi:error] [pid 5248] [client ::1:33480] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:57:21.917538 2018] [cgi:error] [pid 5248] [client ::1:33480] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 11:57:21.944791 2018] [cgi:error] [pid 5248] [client ::1:33480] End of script output before headers: mailApi.py
+[Fri Nov 02 12:08:06.733714 2018] [cgi:error] [pid 5249] [client ::1:33590] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:08:06.733891 2018] [cgi:error] [pid 5249] [client ::1:33590] AH01215:   File "/home/halk/myproject/mailApi.py", line 65, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:08:06.733993 2018] [cgi:error] [pid 5249] [client ::1:33590] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:08:06.734086 2018] [cgi:error] [pid 5249] [client ::1:33590] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:08:06.761210 2018] [cgi:error] [pid 5249] [client ::1:33590] End of script output before headers: mailApi.py
+[Fri Nov 02 12:09:42.107827 2018] [cgi:error] [pid 5247] [client ::1:33598] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:09:42.108011 2018] [cgi:error] [pid 5247] [client ::1:33598] AH01215:   File "/home/halk/myproject/mailApi.py", line 101, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:09:42.108139 2018] [cgi:error] [pid 5247] [client ::1:33598] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:09:42.108272 2018] [cgi:error] [pid 5247] [client ::1:33598] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:09:42.135673 2018] [cgi:error] [pid 5247] [client ::1:33598] End of script output before headers: mailApi.py
+[Fri Nov 02 12:10:50.327504 2018] [cgi:error] [pid 5250] [client ::1:33606] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:10:50.327651 2018] [cgi:error] [pid 5250] [client ::1:33606] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:10:50.327808 2018] [cgi:error] [pid 5250] [client ::1:33606] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:10:50.327902 2018] [cgi:error] [pid 5250] [client ::1:33606] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:10:50.354875 2018] [cgi:error] [pid 5250] [client ::1:33606] End of script output before headers: mailApi.py
+[Fri Nov 02 12:11:02.371381 2018] [cgi:error] [pid 5246] [client ::1:33612] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:11:02.371526 2018] [cgi:error] [pid 5246] [client ::1:33612] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:11:02.371625 2018] [cgi:error] [pid 5246] [client ::1:33612] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:11:02.371718 2018] [cgi:error] [pid 5246] [client ::1:33612] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:11:02.399142 2018] [cgi:error] [pid 5246] [client ::1:33612] End of script output before headers: mailApi.py
+[Fri Nov 02 12:13:25.245878 2018] [cgi:error] [pid 5940] [client ::1:33630] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:13:25.246027 2018] [cgi:error] [pid 5940] [client ::1:33630] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:13:25.246126 2018] [cgi:error] [pid 5940] [client ::1:33630] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:13:25.246219 2018] [cgi:error] [pid 5940] [client ::1:33630] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:13:25.273295 2018] [cgi:error] [pid 5940] [client ::1:33630] End of script output before headers: mailApi.py
+[Fri Nov 02 12:14:36.909189 2018] [cgi:error] [pid 5249] [client ::1:33648] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:14:36.909400 2018] [cgi:error] [pid 5249] [client ::1:33648] AH01215:   File "/home/halk/myproject/mailApi.py", line 101, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:14:36.909501 2018] [cgi:error] [pid 5249] [client ::1:33648] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:14:36.909595 2018] [cgi:error] [pid 5249] [client ::1:33648] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:14:36.937294 2018] [cgi:error] [pid 5249] [client ::1:33648] End of script output before headers: mailApi.py
+[Fri Nov 02 12:20:24.916443 2018] [cgi:error] [pid 5940] [client ::1:33734] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:20:24.916635 2018] [cgi:error] [pid 5940] [client ::1:33734] AH01215:   File "/home/halk/myproject/mailApi.py", line 101, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:20:24.916681 2018] [cgi:error] [pid 5940] [client ::1:33734] AH01215:     print emm: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:20:24.916770 2018] [cgi:error] [pid 5940] [client ::1:33734] AH01215: NameError: name 'emm' is not defined: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:25:01.516698 2018] [cgi:error] [pid 5246] [client ::1:33756] AH01215:   File "/home/halk/myproject/mailApi.py", line 29: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:25:01.516920 2018] [cgi:error] [pid 5246] [client ::1:33756] AH01215:     number of times html file is created with dynamic name of file creation: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:25:01.516964 2018] [cgi:error] [pid 5246] [client ::1:33756] AH01215:             ^: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:25:01.517031 2018] [cgi:error] [pid 5246] [client ::1:33756] AH01215: SyntaxError: invalid syntax: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:25:01.520304 2018] [cgi:error] [pid 5246] [client ::1:33756] End of script output before headers: mailApi.py
+[Fri Nov 02 12:26:16.949973 2018] [cgi:error] [pid 5940] [client ::1:33764] AH01215:   File "/home/halk/myproject/mailApi.py", line 25: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:16.950138 2018] [cgi:error] [pid 5940] [client ::1:33764] AH01215:     emails=''.join[i for i in dataset['email']]: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:16.950209 2018] [cgi:error] [pid 5940] [client ::1:33764] AH01215:                        ^: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:16.950276 2018] [cgi:error] [pid 5940] [client ::1:33764] AH01215: SyntaxError: invalid syntax: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:16.952857 2018] [cgi:error] [pid 5940] [client ::1:33764] End of script output before headers: mailApi.py
+[Fri Nov 02 12:26:23.327281 2018] [cgi:error] [pid 5248] [client ::1:33766] AH01215:   File "/home/halk/myproject/mailApi.py", line 25: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:23.327481 2018] [cgi:error] [pid 5248] [client ::1:33766] AH01215:     emails=''.join[i for i in dataset['email']]: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:23.327550 2018] [cgi:error] [pid 5248] [client ::1:33766] AH01215:                        ^: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:23.327618 2018] [cgi:error] [pid 5248] [client ::1:33766] AH01215: SyntaxError: invalid syntax: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:23.330140 2018] [cgi:error] [pid 5248] [client ::1:33766] End of script output before headers: mailApi.py
+[Fri Nov 02 12:26:57.889767 2018] [cgi:error] [pid 5250] [client ::1:33770] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:57.889972 2018] [cgi:error] [pid 5250] [client ::1:33770] AH01215:   File "/home/halk/myproject/mailApi.py", line 25, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:57.890078 2018] [cgi:error] [pid 5250] [client ::1:33770] AH01215:     emails=[].join(i for i in dataset['email']): /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:57.890173 2018] [cgi:error] [pid 5250] [client ::1:33770] AH01215: AttributeError: 'list' object has no attribute 'join': /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:26:57.918541 2018] [cgi:error] [pid 5250] [client ::1:33770] End of script output before headers: mailApi.py
+[Fri Nov 02 12:33:02.921386 2018] [cgi:error] [pid 5940] [client ::1:33840] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:02.921547 2018] [cgi:error] [pid 5940] [client ::1:33840] AH01215:   File "/home/halk/myproject/mailApi.py", line 57, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:02.921622 2018] [cgi:error] [pid 5940] [client ::1:33840] AH01215:     msg['From'] = fromaddr : /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:02.921706 2018] [cgi:error] [pid 5940] [client ::1:33840] AH01215: NameError: name 'fromaddr' is not defined: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:02.950356 2018] [cgi:error] [pid 5940] [client ::1:33840] End of script output before headers: mailApi.py
+[Fri Nov 02 12:33:27.838689 2018] [cgi:error] [pid 5249] [client ::1:33842] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:27.838869 2018] [cgi:error] [pid 5249] [client ::1:33842] AH01215:   File "/home/halk/myproject/mailApi.py", line 98, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:27.838945 2018] [cgi:error] [pid 5249] [client ::1:33842] AH01215:     msg['From'] = fromaddr : /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:27.839041 2018] [cgi:error] [pid 5249] [client ::1:33842] AH01215: NameError: name 'fromaddr' is not defined: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:33:27.866940 2018] [cgi:error] [pid 5249] [client ::1:33842] End of script output before headers: mailApi.py
+[Fri Nov 02 12:34:43.615194 2018] [cgi:error] [pid 5247] [client ::1:33852] AH01215:   File "/home/halk/myproject/mailApi.py", line 25: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:34:43.615401 2018] [cgi:error] [pid 5247] [client ::1:33852] AH01215:     number of times html file is created with dynamic name of file creation: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:34:43.615453 2018] [cgi:error] [pid 5247] [client ::1:33852] AH01215:             ^: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:34:43.615525 2018] [cgi:error] [pid 5247] [client ::1:33852] AH01215: SyntaxError: invalid syntax: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:34:43.618955 2018] [cgi:error] [pid 5247] [client ::1:33852] End of script output before headers: mailApi.py
+[Fri Nov 02 12:35:05.807766 2018] [cgi:error] [pid 5246] [client ::1:33854] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:05.807919 2018] [cgi:error] [pid 5246] [client ::1:33854] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:05.808018 2018] [cgi:error] [pid 5246] [client ::1:33854] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:05.808112 2018] [cgi:error] [pid 5246] [client ::1:33854] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:05.835330 2018] [cgi:error] [pid 5246] [client ::1:33854] End of script output before headers: mailApi.py
+[Fri Nov 02 12:35:58.861439 2018] [cgi:error] [pid 5940] [client ::1:33860] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:58.861592 2018] [cgi:error] [pid 5940] [client ::1:33860] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:58.861703 2018] [cgi:error] [pid 5940] [client ::1:33860] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:58.861796 2018] [cgi:error] [pid 5940] [client ::1:33860] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:35:58.889034 2018] [cgi:error] [pid 5940] [client ::1:33860] End of script output before headers: mailApi.py
+[Fri Nov 02 12:36:07.436629 2018] [cgi:error] [pid 5249] [client ::1:33866] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:07.436783 2018] [cgi:error] [pid 5249] [client ::1:33866] AH01215:   File "/home/halk/myproject/mailApi.py", line 102, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:07.436937 2018] [cgi:error] [pid 5249] [client ::1:33866] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:07.437031 2018] [cgi:error] [pid 5249] [client ::1:33866] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:07.465376 2018] [cgi:error] [pid 5249] [client ::1:33866] End of script output before headers: mailApi.py
+[Fri Nov 02 12:36:50.222512 2018] [cgi:error] [pid 5250] [client ::1:33872] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:50.222665 2018] [cgi:error] [pid 5250] [client ::1:33872] AH01215:   File "/home/halk/myproject/mailApi.py", line 102, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:50.222765 2018] [cgi:error] [pid 5250] [client ::1:33872] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:50.222874 2018] [cgi:error] [pid 5250] [client ::1:33872] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:50.250713 2018] [cgi:error] [pid 5250] [client ::1:33872] End of script output before headers: mailApi.py
+[Fri Nov 02 12:36:56.591039 2018] [cgi:error] [pid 5248] [client ::1:33878] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:56.591183 2018] [cgi:error] [pid 5248] [client ::1:33878] AH01215:   File "/home/halk/myproject/mailApi.py", line 61, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:56.591306 2018] [cgi:error] [pid 5248] [client ::1:33878] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:56.591401 2018] [cgi:error] [pid 5248] [client ::1:33878] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:36:56.618402 2018] [cgi:error] [pid 5248] [client ::1:33878] End of script output before headers: mailApi.py
+[Fri Nov 02 12:42:34.229912 2018] [cgi:error] [pid 5246] [client ::1:33898] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:42:34.230152 2018] [cgi:error] [pid 5246] [client ::1:33898] AH01215:   File "/home/halk/myproject/mailApi.py", line 57, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:42:34.230239 2018] [cgi:error] [pid 5246] [client ::1:33898] AH01215:     : /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:42:34.230382 2018] [cgi:error] [pid 5246] [client ::1:33898] AH01215: body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:42:34.230549 2018] [cgi:error] [pid 5246] [client ::1:33898] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:42:34.271030 2018] [cgi:error] [pid 5246] [client ::1:33898] End of script output before headers: mailApi.py
+[Fri Nov 02 12:43:05.999101 2018] [cgi:error] [pid 5940] [client ::1:33904] AH01215: Traceback (most recent call last):: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:43:05.999284 2018] [cgi:error] [pid 5940] [client ::1:33904] AH01215:   File "/home/halk/myproject/mailApi.py", line 57, in <module>: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:43:05.999427 2018] [cgi:error] [pid 5940] [client ::1:33904] AH01215:     body = "The attachment contains html data of "+file_u: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:43:05.999559 2018] [cgi:error] [pid 5940] [client ::1:33904] AH01215: TypeError: cannot concatenate 'str' and 'list' objects: /home/halk/myproject/mailApi.py
+[Fri Nov 02 12:43:06.026446 2018] [cgi:error] [pid 5940] [client ::1:33904] End of script output before headers: mailApi.py
